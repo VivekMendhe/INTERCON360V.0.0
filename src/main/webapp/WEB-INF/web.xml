@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+	id="WebApp_ID" version="4.0">
+	<display-name>INTERCON360</display-name>
+	<welcome-file-list>
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>
+
+	<servlet>
+		<servlet-name>PromoteServlet</servlet-name>
+		<servlet-class>com.intercon360.servlet.PromoteServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>PromoteServlet</servlet-name>
+		<url-pattern>/PromoteServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>ConveyServlet</servlet-name>
+		<servlet-class>com.intercon360.servlet.ConveyServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>ConveyServlet</servlet-name>
+		<url-pattern>/ConveyServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>SignupServlet</servlet-name>
+		<servlet-class>com.intercon360.servlet.SignupServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>SignupServlet</servlet-name>
+		<url-pattern>/SignupServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>LoginServlet</servlet-name>
+		<servlet-class>com.intercon360.servlet.LoginServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>LoginServlet</servlet-name>
+		<url-pattern>/LoginServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>ContactServlet</servlet-name>
+		<servlet-class>com.intercon360.servlet.ContactServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>ContactServlet</servlet-name>
+		<url-pattern>/ContactServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>RecordServlet</servlet-name>
+		<servlet-class>com.intercon360.servlet.RecordServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>RecordServlet</servlet-name>
+		<url-pattern>/RecordServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>PossibilityServlet</servlet-name>
+		<servlet-class>com.intercon360.servlet.PossibilityServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>PossibilityServlet</servlet-name>
+		<url-pattern>/PossibilityServlet</url-pattern>
+	</servlet-mapping>
+
+
+</web-app>
